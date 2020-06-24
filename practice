@@ -1,0 +1,7 @@
+import os
+import numpy as np
+import pickle
+import warnings
+warnings.filterwarnings("ignore")
+import matplotlib.pyplot as plt
+from coastsat import SDS_download, SDS_preprocess, SDS_shoreline, SDS_tools, SDS_transects
